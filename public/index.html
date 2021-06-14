@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Safdar Khan Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Safdar Khan Resume Page">
+    <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master, software engineer">
+    <link rel="shortcut icon" href="https://safdarlp.github.io/safdar.ico">
+    <link rel="stylesheet" type="text/css" href="./dist/css/main.css/main.min.css">
+    <link rel="manifest" href="manifest.json">
+    <ul class="nav-inline pull-right" role="navigation"></ul>
+  </head>
+  <body style="background-color: #cce6ff"> 
+    <header>
+      <span class="logo">Safdar Khan</span>
+      <a id="toggleMenu">Menu<a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      
+    </header>
+    <h1>&ensp; Safdar Khan's Website</h1>
+     <main>
+    <h2>About Me</h2>
+    <img src="https://s.gravatar.com/avatar/0272bf359e5b9affd5cfbca3fcf1b003?s=80"  alt="Safdar Khan" class="avatar">
+    <p>
+    Hello and Welcome to my website! My Name is Safdar Khan. I am a software developer. You can check out my resume by clicking on top of the page or by clicking this link <a href="resume.html">resume</a>. If you like to leave your contact details please click on the contact link or by clicking this link <a href="contact.html">contact</a>. Thanks again for visiting my website.
+    </p>      
+    <br></br>
+    <h2>Interests and Hobbies</h2>  
+    <p>My interest in computers grew from a young age but the true understanding of computers/IT in today's world of business, communication, medicine and so on so forth had been a recent event. 
+      Cooking is also another hobby I like and I can relate cooking to computer programming. Both are similar in a way that you have to put the right ingredients to make a program/food work. 
+      </p>    
+    <h2>My list of recommended websites</h2>
+    <ul>
+      <li><a href="https://stackoverflow.com/">Stack Overflow: Your go to place for any questions on programming/software development </a></li>  
+      <li><a href="https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ">IBM Cloud (YouTube Page): Good explanation of topics related to cloud and other new technologies</a></li>
+      <li><a href="https://www.bbc.com/">BBC News: Consistenly unbiased news and coverage of news is truly worldwide </a></li>        
+      <li><a href="https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg">Ali Abdaal (YouTube) Channel: Good tips on productivity, learning and other life hacks </a></li>
+  </ul>
+  </main>
+    <script>
+      var toggleMenu = document.getElementById('toggleMenu');
+      var nav = document.querySelector('nav');
+      toggleMenu.addEventListener(
+        'click',
+        function(){
+          if(nav.style.display=='block'){
+            nav.style.display='none';
+          }else{
+            nav.style.display='block';
+          }
+        }
+      );
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+   <footer class = "center" id ="footer"> <b>Safdar Khan Copyright &#9400; 2021 </b></footer>
+  </body> 
+</html>
