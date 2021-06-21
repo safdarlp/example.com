@@ -1,67 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Safdar Khan Home Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Safdar Khan Resume Page">
-    <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master, software engineer">
-    <link rel="shortcut icon" href="https://safdarlp.github.io/safdar.ico">
-    <link rel="stylesheet" type="text/css" href="./dist/css/main.css/main.min.css">
-    <link rel="manifest" href="manifest.json">
-    <ul class="nav-inline pull-right" role="navigation"></ul>
-  </head>
-  <body style="background-color: #cce6ff"> 
-    <header>
-      <span class="logo">Safdar Khan</span>
-      <a id="toggleMenu">Menu<a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+<DOCTYPE html>
+	<html lang="en">
+	  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Safdar Khan Home</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<link rel="shortcut icon" href="/safdar.ico">
+	  </head>
+	
+	  <body>
+		<!-- Content of webpage -->
+		<div class="container">
+		<!-- Navbar -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+			<a class="navbar-brand" href="#">
+				<img src="https://s.gravatar.com/avatar/0272bf359e5b9affd5cfbca3fcf1b003?s=80" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+				Safdar Khan
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="resume.html">Resume</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
 
-      
-    </header>
-    <h1>&ensp; Safdar Khan's Website</h1>
-     <main>
-    <h2>About Me</h2>
-    <img src="https://s.gravatar.com/avatar/0272bf359e5b9affd5cfbca3fcf1b003?s=80"  alt="Safdar Khan" class="avatar">
-    <p>
-    Hello and Welcome to my website! My Name is Safdar Khan. I am a software developer. You can check out my resume by clicking on top of the page or by clicking this link <a href="resume.html">resume</a>. If you like to leave your contact details please click on the contact link or by clicking this link <a href="contact.html">contact</a>. Thanks again for visiting my website.
-    </p>      
-    <br></br>
-    <h2>Interests and Hobbies</h2>  
-    <p>My interest in computers grew from a young age but the true understanding of computers/IT in today's world of business, communication, medicine and so on so forth had been a recent event. 
-      Cooking is also another hobby I like and I can relate cooking to computer programming. Both are similar in a way that you have to put the right ingredients to make a program/food work. 
-      </p>    
-    <h2>My list of recommended websites</h2>
+				<!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+			  </div>
+			</div>
+		  </nav>
+			<div class="jumbotron">
+				<h1 class="display-4">Welcome</h1>
+				<p class="lead">Full Stack Web and Hybrid Mobile Applications Developer</p>
+				<hr class="my-4">
+				<p>Hello and Welcome to my website! My Name is Safdar Khan. I am a software developer. You can check out my resume by clicking on top of the page or by clicking this link <a href="resume.html">resume</a>. If you like to leave your contact details please click on the contact link or by clicking this link <a href="contact.html">contact</a>. Thanks again for visiting my website.</p>     
+				<h2>My list of recommended websites</h2>
     <ul>
       <li><a href="https://stackoverflow.com/">Stack Overflow: Your go to place for any questions on programming/software development </a></li>  
       <li><a href="https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ">IBM Cloud (YouTube Page): Good explanation of topics related to cloud and other new technologies</a></li>
       <li><a href="https://www.bbc.com/">BBC News: Consistenly unbiased news and coverage of news is truly worldwide </a></li>        
       <li><a href="https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg">Ali Abdaal (YouTube) Channel: Good tips on productivity, learning and other life hacks </a></li>
   </ul>
-  </main>
-    <script>
-      var toggleMenu = document.getElementById('toggleMenu');
-      var nav = document.querySelector('nav');
-      toggleMenu.addEventListener(
-        'click',
-        function(){
-          if(nav.style.display=='block'){
-            nav.style.display='none';
-          }else{
-            nav.style.display='block';
-          }
-        }
-      );
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-   <footer class = "center" id ="footer"> <b>Safdar Khan Copyright &#9400; 2021 </b></footer>
-  </body> 
-</html>
+				<!-- <a class="btn btn-primary btn-lg" href="contact.html" role="button">Request Information</a> -->
+			  </div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card" style="height: 15rem;">
+						<h5 class="card-header">Canvas Draw</h5>
+						<div class="card-body">
+						  <h5 class="card-title">JavaScript Draw on Canvas</h5>
+						  <p class="card-text">Canvas doodler complete with color picker, shapes and lines.</p>
+						  <a href="/draw/program.html" target="_blank" class="btn btn-primary">Draw and Doodle</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" style="height: 15rem;">
+						<h5 class="card-header">HTML5 Game</h5>
+						<div class="card-body">
+						  <h5 class="card-title">Javascript Game</h5>
+						  <p class="card-text">Move your player and avoid ending the game with killer sprites.</p>
+						  <a href="/game" target="_blank" class="btn btn-primary">Play a Game</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" style="height: 15rem;">
+						<h5 class="card-header">NASA APOD</h5>
+						<div class="card-body">
+						  <h5 class="card-title">NASA Apod Using JQuery</h5>
+						  <p class="card-text">View random NASA Astronomy Picture of the Day.</p>
+						  <a href="/jquery-apod" target="_blank" class="btn btn-primary">View Pics</a>
+						</div>
+					  </div>
+				</div>
+			</div>
+		  </div>
+	  </div>	  
+	  <br></br>
+	  <div class="card">
+		<div class="card-header">
+		  Quote
+		</div>
+		<div class="card-body">
+		  <blockquote class="blockquote mb-0">
+			<p>“ Experience is the name everyone gives to their mistakes.”  </p>
+			<footer class="blockquote-footer">Oscar Wilde <cite title="Source Title"></cite></footer>
+		  </blockquote>
+		</div>
+	  </div>		  
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>		
+	  </body>
+	</html>
+	

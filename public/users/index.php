@@ -1,6 +1,9 @@
 <?php
 require '../../config/keys.php';
 require '../../core/db_connect.php';
+require '../../core/session.php';
+checkSession();
+
 
 $meta=[];
 $meta['title']="Safdar Blog";
