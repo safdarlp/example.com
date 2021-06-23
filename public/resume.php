@@ -1,33 +1,14 @@
-<DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Safdar Khan Resume</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    </head>
+<?php
+require '../core/bootstrap.php';
 
-  	<!-- Content of webpage -->
-		<div class="container">
-      <!-- Navbar -->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">
-          <img src="https://s.gravatar.com/avatar/0272bf359e5b9affd5cfbca3fcf1b003?s=80" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-          Safdar Khan
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link active" href="resume.html">Resume</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>  
-          <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
-        </div>
-        </nav>
+//Build the page metadata
+$meta = [];
+$meta['description'] = "Safdar Khan Resume";
+$meta['keywords'] = "resume, web development, full stack development";
 
+
+$content = <<<EOT
+<main>
 
     
         <div class="row">
@@ -137,8 +118,10 @@
 		</div>
 	  </div>		      
     
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>                       
+                         
     </body>
+    </main>
 </html>
+EOT;
+
+include '../core/layout.php';

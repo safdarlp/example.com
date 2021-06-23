@@ -50,29 +50,30 @@ function active($name){
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <li class="nav-item">    
-                <a class="nav-link" href="http://localhost/example.com/public/users/index.php">Home</a>
-                </li>                
+                <a class="nav-link" href="http://localhost/example.com/public/index.php">Home</a>                
+                </li>
                 <li class="nav-item">
-                  <a class = "nav-link" href="http://localhost/example.com/public/contact.php">Contact</a>              
-           <li class="nav-item">
-          <a class="nav-link" href="http://localhost/example.com/public/login.php">Login</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="http://localhost/example.com/public/register.php">Register</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="http://localhost/example.com/public/users/index.php">Users</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="http://localhost/example.com/public/posts/index.php">Posts</a>
-          </li>          
-           <li class="nav-item">
-           <a class="nav-link" href="http://localhost/example.com/public/logout.php">Logout</a>
-          </li>
-
-          
+                 <a class = "nav-link" href="http://localhost/example.com/public/resume.php">Resume</a>
+                </li>                  
+                <li class="nav-item">
+                  <a class = "nav-link" href="http://localhost/example.com/public/contact.php">Contact</a>
+                  </li>              
+                <li class="nav-item">
+                <a class="nav-link" href="http://localhost/example.com/public/login.php">Login</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="http://localhost/example.com/public/register.php">Register</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="http://localhost/example.com/public/users/index.php">Users</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="http://localhost/example.com/public/posts/index.php">Posts</a>
+                </li>          
+                <li class="nav-item">
+                <a class="nav-link" href="http://localhost/example.com/public/logout.php">Logout</a>
+                </li>          
         </nav>
-
         <div class="row">       
             <br></br>
             <div id="Content">
@@ -80,14 +81,15 @@ function active($name){
             </div>
         </div>
 
-        <div id="Footer" class="clearfix">
+        <div id="footer1" class="clearfix">
             <small>&copy; 2021 - safdarlp.github.io</small>
             <ul role="navigation">
-                <li><a href="terms.html">Terms</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.php">Terms and Conditions</a></li>
+                <li><a href="privacy.php">Privacy Policy</a></li>
+                <li><a href="cookie.php">Cookie Policy</a></li>
             </ul>
         </div>
-    </div>
+    </div>    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>		

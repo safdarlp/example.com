@@ -1,40 +1,20 @@
-<DOCTYPE html>
-	<html lang="en">
-	  <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Safdar Khan Home</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-		<link rel="shortcut icon" href="/safdar.ico">
-	  </head>
-	
-	  <body>
-		<!-- Content of webpage -->
-		<div class="container">
-		<!-- Navbar -->
-		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-			<a class="navbar-brand" href="#">
-				<img src="https://s.gravatar.com/avatar/0272bf359e5b9affd5cfbca3fcf1b003?s=80" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-				Safdar Khan
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			  <div class="navbar-nav">
-				<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="resume.html">Resume</a>
-				<a class="nav-item nav-link" href="contact.html">Contact</a>
+<?php
+require '../core/bootstrap.php';
 
-				<!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-			  </div>
-			</div>
-		  </nav>
+
+//Page metadata
+$meta = [];
+$meta['description'] = "Safdar Khan Page";
+$meta['keywords'] = "web development, full stack development";
+
+
+$content = <<<EOT
+<main>
 			<div class="jumbotron">
 				<h1 class="display-4">Welcome</h1>
-				<p class="lead">Full Stack Web and Hybrid Mobile Applications Developer</p>
+				<p class="lead">Safdar Khan: Full Stack Web and Hybrid Mobile Applications Developer</p>
 				<hr class="my-4">
-				<p>Hello and Welcome to my website! My Name is Safdar Khan. I am a software developer. You can check out my resume by clicking on top of the page or by clicking this link <a href="resume.html">resume</a>. If you like to leave your contact details please click on the contact link or by clicking this link <a href="contact.html">contact</a>. Thanks again for visiting my website.</p>     
+				<p>Hello and Welcome to my website! My Name is Safdar Khan. I am a software developer. You can check out my resume by clicking on top of the page or by clicking this link <a href="resume.php">resume</a>. If you like to leave your contact details please click on the contact link or by clicking this link <a href="contact.php">contact</a>. Thanks again for visiting my website.</p>     
 				<h2>My list of recommended websites</h2>
     <ul>
       <li><a href="https://stackoverflow.com/">Stack Overflow: Your go to place for any questions on programming/software development </a></li>  
@@ -89,10 +69,10 @@
 			<footer class="blockquote-footer">Oscar Wilde <cite title="Source Title"></cite></footer>
 		  </blockquote>
 		</div>
-	  </div>		  
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>		
+	  </div>		  	
 	  </body>
-	</html>
-	
+
+</main>
+EOT;
+
+include '../core/layout.php';

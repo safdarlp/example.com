@@ -9,7 +9,7 @@ $meta['keywords'] = "Web Development, Software Development, LAMP, MEAN";
 
 $content = <<<EOT
 <form action="contact.php" method="POST">
-    {$message}
+    
     <input type="hidden" name="subject" value="New submission!">
   
   <div class="form-control">
